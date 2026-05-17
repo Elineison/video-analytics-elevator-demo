@@ -1,12 +1,12 @@
-# Ethics And Privacy
+# Ethics And Public Scope
 
-This repository is safe for public portfolio use because it follows these rules:
+This repository is a public case study, not a production export.
 
-- uses only synthetic camera names, IDs, detections, and runtime data
-- contains no real customer, condominium, DVR, camera, alert, or incident data
-- contains no video, image evidence, snapshots, or production recordings
-- contains no private network addresses, credentials, SDK binaries, or vendor secrets
-- models the architecture and reasoning without exposing protected implementation details
+It intentionally avoids:
 
-The goal is to demonstrate engineering capability while respecting client confidentiality and operational security.
+- real customer names or condominium identifiers
+- private camera IPs, DVR addresses, stream URLs, or SDK binaries
+- production alert destinations, tokens, passwords, or webhook secrets
+- recordings, screenshots, or event history from real monitored environments
 
+The code models the public boundary of the system: camera runtime, synthetic detections, dwell-time rules, event payloads, and health checks. That keeps the portfolio useful for recruiters while respecting customers and operational confidentiality.
